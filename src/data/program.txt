@@ -1,0 +1,7 @@
+private boolean isLetter(char c) {
+		String letters="qwertyuiopasdfghjklzxcvbnm";
+		if(letters.indexOf(c)>=0) {
+			return true;
+		}
+		return false;
+	}
